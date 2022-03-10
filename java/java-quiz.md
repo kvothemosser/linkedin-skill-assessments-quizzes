@@ -1726,3 +1726,17 @@ System.out.println(b == c);
 - [ ] lock
 
 [Java Documentation: Synchronized methods](https://docs.oracle.com/javase/tutorial/essential/concurrency/syncmeth.html)
+
+#### Q120. What variable type should be declared for capitalize?
+
+```java
+List<String> songTitles = Arrays.asList("humbre", "element", "dna");
+__________ capitalize = str -> str.toUpperCase();
+songTitles.stream().map(capitalize).forEach(System.out::println);
+```
+
+- [x] Function<String, String>
+- [ ] Map<String, String>
+- [ ] Stream<String\>
+- [ ] Stream<String, String>
+
